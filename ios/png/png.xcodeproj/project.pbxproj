@@ -8,21 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FB3F74561826726D00C6F712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F74551826726D00C6F712 /* Foundation.framework */; };
-		FB3F74641826726D00C6F712 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F74631826726D00C6F712 /* XCTest.framework */; };
-		FB3F74651826726D00C6F712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F74551826726D00C6F712 /* Foundation.framework */; };
-		FB3F74671826726D00C6F712 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F74661826726D00C6F712 /* UIKit.framework */; };
-		FB3F746A1826726D00C6F712 /* libpng.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB3F74521826726D00C6F712 /* libpng.a */; };
+		FBF867611AC81822001C29F6 /* png.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8674F1AC81822001C29F6 /* png.c */; };
+		FBF867621AC81822001C29F6 /* pngerror.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867521AC81822001C29F6 /* pngerror.c */; };
+		FBF867631AC81822001C29F6 /* pngget.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867531AC81822001C29F6 /* pngget.c */; };
+		FBF867641AC81822001C29F6 /* pngmem.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867541AC81822001C29F6 /* pngmem.c */; };
+		FBF867651AC81822001C29F6 /* pngpread.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867551AC81822001C29F6 /* pngpread.c */; };
+		FBF867661AC81822001C29F6 /* pngread.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867571AC81822001C29F6 /* pngread.c */; };
+		FBF867671AC81822001C29F6 /* pngrio.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867581AC81822001C29F6 /* pngrio.c */; };
+		FBF867681AC81822001C29F6 /* pngrtran.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867591AC81822001C29F6 /* pngrtran.c */; };
+		FBF867691AC81822001C29F6 /* pngrutil.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675A1AC81822001C29F6 /* pngrutil.c */; };
+		FBF8676A1AC81822001C29F6 /* pngset.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675B1AC81822001C29F6 /* pngset.c */; };
+		FBF8676B1AC81822001C29F6 /* pngtrans.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675C1AC81822001C29F6 /* pngtrans.c */; };
+		FBF8676C1AC81822001C29F6 /* pngwio.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675D1AC81822001C29F6 /* pngwio.c */; };
+		FBF8676D1AC81822001C29F6 /* pngwrite.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675E1AC81822001C29F6 /* pngwrite.c */; };
+		FBF8676E1AC81822001C29F6 /* pngwtran.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF8675F1AC81822001C29F6 /* pngwtran.c */; };
+		FBF8676F1AC81822001C29F6 /* pngwutil.c in Sources */ = {isa = PBXBuildFile; fileRef = FBF867601AC81822001C29F6 /* pngwutil.c */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		FB3F74681826726D00C6F712 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FB3F744A1826726D00C6F712 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB3F74511826726D00C6F712;
-			remoteInfo = png;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		FB3F74501826726D00C6F712 /* CopyFiles */ = {
@@ -40,10 +41,27 @@
 		FB3F74521826726D00C6F712 /* libpng.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpng.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3F74551826726D00C6F712 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FB3F74591826726D00C6F712 /* png-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "png-Prefix.pch"; sourceTree = "<group>"; };
-		FB3F74621826726D00C6F712 /* pngTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pngTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB3F74631826726D00C6F712 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FB3F74661826726D00C6F712 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FB3F747B1826728500C6F712 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../../src; sourceTree = "<group>"; };
+		FBF8674E1AC81822001C29F6 /* config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = config.h; path = ../../src/config.h; sourceTree = "<group>"; };
+		FBF8674F1AC81822001C29F6 /* png.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = png.c; path = ../../src/png.c; sourceTree = "<group>"; };
+		FBF867501AC81822001C29F6 /* png.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = png.h; path = ../../src/png.h; sourceTree = "<group>"; };
+		FBF867511AC81822001C29F6 /* pngconf.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngconf.h; path = ../../src/pngconf.h; sourceTree = "<group>"; };
+		FBF867521AC81822001C29F6 /* pngerror.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngerror.c; path = ../../src/pngerror.c; sourceTree = "<group>"; };
+		FBF867531AC81822001C29F6 /* pngget.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngget.c; path = ../../src/pngget.c; sourceTree = "<group>"; };
+		FBF867541AC81822001C29F6 /* pngmem.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngmem.c; path = ../../src/pngmem.c; sourceTree = "<group>"; };
+		FBF867551AC81822001C29F6 /* pngpread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngpread.c; path = ../../src/pngpread.c; sourceTree = "<group>"; };
+		FBF867561AC81822001C29F6 /* pngpriv.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngpriv.h; path = ../../src/pngpriv.h; sourceTree = "<group>"; };
+		FBF867571AC81822001C29F6 /* pngread.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngread.c; path = ../../src/pngread.c; sourceTree = "<group>"; };
+		FBF867581AC81822001C29F6 /* pngrio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngrio.c; path = ../../src/pngrio.c; sourceTree = "<group>"; };
+		FBF867591AC81822001C29F6 /* pngrtran.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngrtran.c; path = ../../src/pngrtran.c; sourceTree = "<group>"; };
+		FBF8675A1AC81822001C29F6 /* pngrutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngrutil.c; path = ../../src/pngrutil.c; sourceTree = "<group>"; };
+		FBF8675B1AC81822001C29F6 /* pngset.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngset.c; path = ../../src/pngset.c; sourceTree = "<group>"; };
+		FBF8675C1AC81822001C29F6 /* pngtrans.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngtrans.c; path = ../../src/pngtrans.c; sourceTree = "<group>"; };
+		FBF8675D1AC81822001C29F6 /* pngwio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngwio.c; path = ../../src/pngwio.c; sourceTree = "<group>"; };
+		FBF8675E1AC81822001C29F6 /* pngwrite.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngwrite.c; path = ../../src/pngwrite.c; sourceTree = "<group>"; };
+		FBF8675F1AC81822001C29F6 /* pngwtran.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngwtran.c; path = ../../src/pngwtran.c; sourceTree = "<group>"; };
+		FBF867601AC81822001C29F6 /* pngwutil.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = pngwutil.c; path = ../../src/pngwutil.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,24 +73,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB3F745F1826726D00C6F712 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB3F74641826726D00C6F712 /* XCTest.framework in Frameworks */,
-				FB3F74671826726D00C6F712 /* UIKit.framework in Frameworks */,
-				FB3F74651826726D00C6F712 /* Foundation.framework in Frameworks */,
-				FB3F746A1826726D00C6F712 /* libpng.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		FB3F74491826726D00C6F712 = {
 			isa = PBXGroup;
 			children = (
-				FB3F747B1826728500C6F712 /* src */,
+				FBF8674D1AC81813001C29F6 /* src */,
 				FB3F74571826726D00C6F712 /* png */,
 				FB3F74541826726D00C6F712 /* Frameworks */,
 				FB3F74531826726D00C6F712 /* Products */,
@@ -83,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				FB3F74521826726D00C6F712 /* libpng.a */,
-				FB3F74621826726D00C6F712 /* pngTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,6 +120,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FBF8674D1AC81813001C29F6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FBF8674E1AC81822001C29F6 /* config.h */,
+				FBF8674F1AC81822001C29F6 /* png.c */,
+				FBF867501AC81822001C29F6 /* png.h */,
+				FBF867511AC81822001C29F6 /* pngconf.h */,
+				FBF867521AC81822001C29F6 /* pngerror.c */,
+				FBF867531AC81822001C29F6 /* pngget.c */,
+				FBF867541AC81822001C29F6 /* pngmem.c */,
+				FBF867551AC81822001C29F6 /* pngpread.c */,
+				FBF867561AC81822001C29F6 /* pngpriv.h */,
+				FBF867571AC81822001C29F6 /* pngread.c */,
+				FBF867581AC81822001C29F6 /* pngrio.c */,
+				FBF867591AC81822001C29F6 /* pngrtran.c */,
+				FBF8675A1AC81822001C29F6 /* pngrutil.c */,
+				FBF8675B1AC81822001C29F6 /* pngset.c */,
+				FBF8675C1AC81822001C29F6 /* pngtrans.c */,
+				FBF8675D1AC81822001C29F6 /* pngwio.c */,
+				FBF8675E1AC81822001C29F6 /* pngwrite.c */,
+				FBF8675F1AC81822001C29F6 /* pngwtran.c */,
+				FBF867601AC81822001C29F6 /* pngwutil.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -133,24 +165,6 @@
 			productName = png;
 			productReference = FB3F74521826726D00C6F712 /* libpng.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		FB3F74611826726D00C6F712 /* pngTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FB3F74781826726D00C6F712 /* Build configuration list for PBXNativeTarget "pngTests" */;
-			buildPhases = (
-				FB3F745E1826726D00C6F712 /* Sources */,
-				FB3F745F1826726D00C6F712 /* Frameworks */,
-				FB3F74601826726D00C6F712 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FB3F74691826726D00C6F712 /* PBXTargetDependency */,
-			);
-			name = pngTests;
-			productName = pngTests;
-			productReference = FB3F74621826726D00C6F712 /* pngTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -174,45 +188,34 @@
 			projectRoot = "";
 			targets = (
 				FB3F74511826726D00C6F712 /* png */,
-				FB3F74611826726D00C6F712 /* pngTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		FB3F74601826726D00C6F712 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB3F744E1826726D00C6F712 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB3F745E1826726D00C6F712 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				FBF8676B1AC81822001C29F6 /* pngtrans.c in Sources */,
+				FBF8676D1AC81822001C29F6 /* pngwrite.c in Sources */,
+				FBF8676E1AC81822001C29F6 /* pngwtran.c in Sources */,
+				FBF867621AC81822001C29F6 /* pngerror.c in Sources */,
+				FBF867641AC81822001C29F6 /* pngmem.c in Sources */,
+				FBF867671AC81822001C29F6 /* pngrio.c in Sources */,
+				FBF867611AC81822001C29F6 /* png.c in Sources */,
+				FBF8676C1AC81822001C29F6 /* pngwio.c in Sources */,
+				FBF8676A1AC81822001C29F6 /* pngset.c in Sources */,
+				FBF867651AC81822001C29F6 /* pngpread.c in Sources */,
+				FBF867631AC81822001C29F6 /* pngget.c in Sources */,
+				FBF867661AC81822001C29F6 /* pngread.c in Sources */,
+				FBF867691AC81822001C29F6 /* pngrutil.c in Sources */,
+				FBF8676F1AC81822001C29F6 /* pngwutil.c in Sources */,
+				FBF867681AC81822001C29F6 /* pngrtran.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		FB3F74691826726D00C6F712 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FB3F74511826726D00C6F712 /* png */;
-			targetProxy = FB3F74681826726D00C6F712 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FB3F74731826726D00C6F712 /* Debug */ = {
@@ -288,62 +291,28 @@
 		FB3F74761826726D00C6F712 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/png.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "png/png-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Debug;
 		};
 		FB3F74771826726D00C6F712 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DSTROOT = /tmp/png.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "png/png-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		FB3F74791826726D00C6F712 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "png/png-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "pngTests/pngTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		FB3F747A1826726D00C6F712 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "png/png-Prefix.pch";
-				INFOPLIST_FILE = "pngTests/pngTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				VALID_ARCHS = "armv7 arm64 armv7s";
 			};
 			name = Release;
 		};
@@ -366,14 +335,7 @@
 				FB3F74771826726D00C6F712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		FB3F74781826726D00C6F712 /* Build configuration list for PBXNativeTarget "pngTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FB3F74791826726D00C6F712 /* Debug */,
-				FB3F747A1826726D00C6F712 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
